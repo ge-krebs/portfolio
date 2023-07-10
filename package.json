@@ -1,8 +1,8 @@
 {
-  "name": "my-fullstack-collection",
+  "name": "gemma-krebs-portfolio",
   "version": "0.1.0",
-  "description": "Build a fullstack collection app",
-  "repository": "https://https://github.com/dev-academy-challenges/my-fullstack-collection",
+  "description": "Showcasing my developer portfolio",
+  "repository": "https://github.com/ge-krebs/portfolio",
   "main": "server/index.ts",
   "scripts": {
     "build": "run-s build:client build:server",
@@ -13,13 +13,13 @@
     "dev": "run-p dev:client dev:server",
     "dev:client": "vite",
     "dev:server": "nodemon server/index.ts",
-    "knex": "knex --knexfile ./server/db/knexfile.js",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "sass": "^1.63.6"
   },
   "keywords": [
-    "fullstack"
+    "portfolio"
   ],
-  "author": "Dev Academy Aotearoa",
+  "author": "Gemma Krebs",
   "license": "ISC",
   "eslintConfig": {
     "extends": "@devacademy/eslint-config/react",
@@ -53,8 +53,6 @@
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.4.2",
-    "redux": "^4.1.1",
-    "redux-thunk": "^2.4.2",
     "sass": "^1.63.6",
     "supertest": "^6.2.2",
     "typescript": "~4.8.4",
@@ -68,7 +66,8 @@
     "knex": "^2.3.0",
     "sqlite3": "^5.1.2",
     "superagent": "7.1.1",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "sass": "^1.63.6"
   },
   "prettier": {
     "semi": false,

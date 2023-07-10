@@ -1,7 +1,10 @@
+import Header from './Header'
+
 function App() {
   return (
     <>
-      <h1>Gemma Krebs - Test</h1>
+      <Header />
+      <p>test</p>
     </>
   )
 }
