@@ -1,12 +1,47 @@
 body {
-  position: absolute;
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: grey;
   color: white;
 }
 
-header {
+#header-container {
   width: 100vw;
-  height: 20vh;
-  background-color: black;
+  height: 10vh;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  background-color: #333;
+  display: flex;
+}
+
+#header-title {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+#nav-container {
+  width: 50vw;
+}
+
+#nav-links {
+  display: flex;
+  flex-direction: row;
+}
+
+/* L A N D I N G */
+
+#landing-container {
+  margin-top: 10vh;
+  position: fixed;
+  background-color: purple;
+  width: 100vw;
+  height: 70vh;
+  left: 0;
+}
+
+#landing-content-container {
+  width: 70vw;
+  height: 70vh;
+  background-color: blue;
+  margin: auto;
 }

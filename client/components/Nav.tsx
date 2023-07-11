@@ -1,10 +1,12 @@
 function Nav() {
   return (
     <>
-      <nav>
-        <li>github</li>
-        <li>linked in</li>
-        <li>contact</li>
+      <nav id="nav-container">
+        <div id="nav-links">
+          <p>github</p>
+          <p>linked in</p>
+          <p>contact</p>
+        </div>
       </nav>
     </>
   )
