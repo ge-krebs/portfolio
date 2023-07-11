@@ -1,6 +1,8 @@
 body {
   background-color: grey;
   color: white;
+  left: 0;
+  top: 0;
 }
 
 /* H E A D E R */
@@ -48,20 +50,29 @@ body {
 /* L A N D I N G */
 
 .section-container {
-  margin-top: 10vh;
-  /* position: absolute; */
   background-color: purple;
   width: 100vw;
   height: 85vh;
-  left: 0;
 }
 
 .section-content-container {
-  /* position: absolute; */
-  width: 70vw;
+  width: 80vw;
   height: 85vh;
   background-color: blue;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#threejs-logo {
+  min-width: 60%;
+  background-color: lightblue;
+}
+
+#greeting-container {
+  min-width: 40%;
+  background-color: orange;
 }
 
 /* F O O T E R */

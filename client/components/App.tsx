@@ -5,9 +5,9 @@ import Projects from './Projects'
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Landing />
-      <Projects />
+      {/* <Projects /> */}
     </>
   )
 }
