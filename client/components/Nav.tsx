@@ -3,9 +3,10 @@ function Nav() {
     <>
       <nav id="nav-container">
         <div id="nav-links">
-          <p>github</p>
-          <p>linked in</p>
-          <p>contact</p>
+          <button className="nav-btn">HOME</button>
+          <button className="nav-btn">PROJECTS</button>
+          <button className="nav-btn">TECHNOLOGIES</button>
+          <button className="nav-btn">CONTACT</button>
         </div>
       </nav>
     </>

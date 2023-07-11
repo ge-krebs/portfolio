@@ -3,6 +3,8 @@ body {
   color: white;
 }
 
+/* H E A D E R */
+
 #header-container {
   width: 100vw;
   height: 10vh;
@@ -19,6 +21,21 @@ body {
   margin-right: 15vw;
 }
 
+/* N A V */
+
+.nav-btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: palevioletred;
+  color: white;
+  padding: 5px;
+}
+
+.nav-btn:hover {
+  background-color: pink;
+  box-shadow: inset;
+}
+
 #nav-container {
   width: 50vw;
 }
@@ -30,18 +47,29 @@ body {
 
 /* L A N D I N G */
 
-#landing-container {
+.section-container {
   margin-top: 10vh;
-  position: fixed;
+  /* position: absolute; */
   background-color: purple;
   width: 100vw;
-  height: 70vh;
+  height: 85vh;
   left: 0;
 }
 
-#landing-content-container {
+.section-content-container {
+  /* position: absolute; */
   width: 70vw;
-  height: 70vh;
+  height: 85vh;
   background-color: blue;
-  margin: auto;
+  margin: 0 auto;
+}
+
+/* F O O T E R */
+
+#footer-container {
+  background-color: pink;
+  height: 10vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
 }
