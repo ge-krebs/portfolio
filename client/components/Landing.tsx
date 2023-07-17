@@ -7,7 +7,7 @@ function Landing() {
     <div className="section-container">
       <div className="section-content-container">
         <div id="threejs-container">
-          <img src="/images/laptop.jpg" alt="laptop" />
+          <img id="landing-img" src="/images/laptop.jpg" alt="laptop" />
         </div>
         <div id="greeting-container">
           <div id="greeting-container-heading">

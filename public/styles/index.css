@@ -17,7 +17,7 @@ body {
   top: 0;
   left: 0;
   overflow: hidden;
-  position: fixed;
+  position: sticky;
   background-color: #333;
   display: flex;
 }
@@ -59,9 +59,9 @@ h1 {
 /* L A N D I N G */
 
 .section-container {
-  background-color: purple;
   width: 100vw;
   height: 85vh;
+  position: static;
 }
 
 .section-content-container {
@@ -78,6 +78,11 @@ h1 {
   min-width: 50%;
   max-width: 50%;
   background-color: lightblue;
+}
+
+#landing-img {
+  width: 90%;
+  margin: 5%;
 }
 
 #greeting-container {

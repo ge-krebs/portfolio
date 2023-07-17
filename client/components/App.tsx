@@ -1,13 +1,11 @@
 import Header from './Header'
 import Landing from './Landing'
-import Projects from './Projects'
 
 function App() {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <Landing />
-      {/* <Projects /> */}
     </>
   )
 }
