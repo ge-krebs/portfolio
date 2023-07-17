@@ -1,16 +1,24 @@
 function Landing() {
-  const greeting = 'Kia ora! 👋'
+  const greeting = 'Kia ora!👋'
+  const name = "I'm Gemma, "
   const text =
-    "I'm Gemma, a Junior Software Engineer with a passion for creating applications that are visible pleasing on the eye."
+    'a Junior Software Engineer with a passion for creating applications that are visible pleasing on the eye.'
   return (
     <div className="section-container">
       <div className="section-content-container">
         <div id="threejs-container">
-          <p>3js logo</p>
+          <img src="/images/laptop.jpg" alt="laptop" />
         </div>
         <div id="greeting-container">
-          <h1>{greeting}</h1>
-          <p>{text}</p>
+          <div id="greeting-container-heading">
+            <h1>{greeting}</h1>
+          </div>
+          <div id="greeting-container-text">
+            <p>
+              <span id="purple-text">{name}</span>
+              {text}
+            </p>
+          </div>
         </div>
       </div>
     </div>

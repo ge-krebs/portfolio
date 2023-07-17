@@ -1,8 +1,12 @@
+/* font-family: 'Passion One', cursive;
+font-family: 'Roboto', sans-serif; */
+
 body {
   background-color: grey;
   color: white;
   left: 0;
   top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* H E A D E R */
@@ -21,6 +25,11 @@ body {
 #header-title {
   margin-left: 15vw;
   margin-right: 15vw;
+}
+
+h1 {
+  font-family: 'Passion One', cursive;
+  font-weight: 400;
 }
 
 /* N A V */
@@ -58,7 +67,7 @@ body {
 .section-content-container {
   width: 80vw;
   height: 85vh;
-  background-color: blue;
+  background-color: darkslategray;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -66,13 +75,32 @@ body {
 }
 
 #threejs-logo {
-  min-width: 60%;
+  min-width: 50%;
+  max-width: 50%;
   background-color: lightblue;
 }
 
 #greeting-container {
-  min-width: 40%;
-  background-color: orange;
+  min-width: 50%;
+  max-width: 50%;
+  background-color: black;
+}
+
+#greeting-container-heading {
+  margin-top: 2em;
+  margin-left: 2em;
+  font-size: 3rem;
+}
+
+#greeting-container-text {
+  margin-left: 2em;
+  font-size: 1.5em;
+}
+
+#purple-text {
+  color: plum;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 /* F O O T E R */
