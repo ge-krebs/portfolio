@@ -11,23 +11,22 @@ import 'react-vertical-timeline-component/style.min.css'
 
 function Timeline() {
   //move to css?
-  const workIconStyles = { background: '#000000' }
-  const educationIconStyles = { background: '#000000' }
+  const iconStyle = { background: 'plum' }
 
   return (
-    <div className="section-content-container">
-      <h1>Timeline</h1>
+    <div id="experience">
+      <h1 className="title">Experience</h1>
       <img src="workIcon" alt="" />
       <VerticalTimeline>
         {timeline.map((element) => {
-          const isWorkIcon = element.icon === 'work'
+          // const isWorkIcon = element.icon === 'work'
           return (
             <VerticalTimelineElement
               key={element.id}
               date={element.date}
               dateClassName="date"
-              iconStyle={isWorkIcon ? workIconStyles : educationIconStyles}
-              icon={isWorkIcon ? workIcon : educationIcon}
+              iconStyle={iconStyle}
+              // icon={isWorkIcon ? workIcon : educationIcon}
             >
               <h2 className="vertical-timeline-element-title">
                 {element.title}

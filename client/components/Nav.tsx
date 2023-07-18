@@ -1,14 +1,25 @@
-//react router link, navigate to specific points on the page
+import { HashLink as Link } from 'react-router-hash-link'
+
+//set states to allow text color to stay on dependent of which
+//section the user is on the page
 
 function Nav() {
   return (
     <>
       <nav id="nav-container">
         <div id="nav-links">
-          <button className="nav-btn">HOME</button>
-          <button className="nav-btn">PROJECTS</button>
-          <button className="nav-btn">TECHNOLOGIES</button>
-          <button className="nav-btn">CONTACT</button>
+          <Link to="#about" className="nav-btn">
+            About Me
+          </Link>
+          <Link to="#experience" className="nav-btn">
+            Experience
+          </Link>
+          <Link to="#" className="nav-btn">
+            Projects
+          </Link>
+          <Link to="#" className="nav-btn">
+            Contact
+          </Link>
         </div>
       </nav>
     </>

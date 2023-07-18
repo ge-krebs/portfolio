@@ -1,13 +1,18 @@
 import Header from './Header'
 import Landing from './Landing'
 import Timeline from './Timeline'
+import AboutMe from './AboutMe'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
     <>
-      <Header />
-      <Landing />
-      <Timeline />
+      <BrowserRouter>
+        <Header />
+        <Landing />
+        <AboutMe />
+        <Timeline />
+      </BrowserRouter>
     </>
   )
 }
