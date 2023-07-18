@@ -1,3 +1,5 @@
+//react router link, navigate to specific points on the page
+
 function Nav() {
   return (
     <>
