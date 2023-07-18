@@ -17,6 +17,7 @@ function Timeline() {
   return (
     <div className="section-content-container">
       <h1>Timeline</h1>
+      <img src="workIcon" alt="" />
       <VerticalTimeline>
         {timeline.map((element) => {
           const isWorkIcon = element.icon === 'work'
