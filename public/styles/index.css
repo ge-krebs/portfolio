@@ -1,8 +1,18 @@
 /* font-family: 'Passion One', cursive;
 font-family: 'Roboto', sans-serif; */
 
+/*
+BABY BLUE #93D0E6
+LIGHT BLUE  #95BEF0
+LIGHT PURPLE #96A1D9 
+DARK #2F2C45
+BABY PURPLE #BDA1E6
+*/
+
+/* Change alternate font */
+
 body {
-  background-color: black;
+  background-color: #2F2C45;
   left: 0;
   top: 0;
   font-family: 'Roboto', sans-serif;
@@ -18,46 +28,42 @@ body {
   left: 0;
   overflow: hidden;
   position: sticky;
-  background-color: black;
+  background-color: #2F2C45;
   display: flex;
 }
 
 #header-title {
-  margin-left: 15vw;
-  margin-right: 15vw;
-  color: plum;
-}
-
-h1 {
+  width: 10vw;
+  margin-left: 5vw;
+  color: #96A1D9;
   font-family: 'Passion One', cursive;
-  font-weight: 400;
 }
 
 /* N A V */
+
+#nav-container {
+  margin-right: 5vw;
+  width: 90vw;
+}
+
+#nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
 
 .nav-btn {
   margin: 1em;
   padding: .2em;
   text-decoration: none;
-  border-bottom: 2px solid white;
-  background-color: black;
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
 .nav-btn:hover {
-  color: plum;
-  border-bottom: 2px solid plum;
-}
-
-#nav-container {
-  width: 50vw;
-}
-
-#nav-links {
-  display: flex;
-  flex-direction: row;
+  color: #96A1D9;
+  border-bottom: 2px solid #96A1D9;
 }
 
 /* L A N D I N G */
@@ -91,7 +97,6 @@ h1 {
 #greeting-container {
   min-width: 50%;
   max-width: 50%;
-  background-color: black;
   color: white;
 }
 
@@ -108,7 +113,7 @@ h1 {
 }
 
 #purple-text {
-  color: plum;
+  color: #93D0E6;
   font-size: 2rem;
   font-weight: 700;
 }

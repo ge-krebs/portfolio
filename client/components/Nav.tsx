@@ -14,7 +14,7 @@ function Nav() {
           <Link to="#experience" className="nav-btn">
             Experience
           </Link>
-          <Link to="#" className="nav-btn">
+          <Link to="#projects" className="nav-btn">
             Projects
           </Link>
           <Link to="#" className="nav-btn">

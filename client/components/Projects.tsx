@@ -2,7 +2,7 @@ import projects from '../data/projects'
 
 function Projects() {
   return (
-    <div className="section-container">
+    <div id="projects" className="section-container">
       <h1>Projects</h1>
       <div className="project-container">
         {projects.map((project) => {
